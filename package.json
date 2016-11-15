@@ -1,0 +1,28 @@
+{
+  "name": "json-to-css",
+  "version": "0.0.0",
+  "description": "Converts json to CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/desirable-objects/json-to-css.git"
+  },
+  "keywords": [
+    "json",
+    "css",
+    "convert"
+  ],
+  "author": "Antony Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desirable-objects/json-to-css/issues"
+  },
+  "homepage": "https://github.com/desirable-objects/json-to-css#readme",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "mocha": "^3.1.2"
+  }
+}
