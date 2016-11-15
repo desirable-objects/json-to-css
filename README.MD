@@ -8,6 +8,10 @@ Converts JSON to Css
 
 This module has no external dependencies.
 
+### Install
+
+`npm install json-to-css`
+
 ### API
 
 * <class> `Css`
