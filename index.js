@@ -1,1 +1,1 @@
-module.exports = require('src/css')
+module.exports = require('./src/css')
