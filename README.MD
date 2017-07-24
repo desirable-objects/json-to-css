@@ -20,10 +20,27 @@ This module has no external dependencies.
 
 ### Usage
 
-```
+```javascript
 const Css = require('json-to-css')
 const json = require('./some-css.json')
 
 const css = Css.of(json)
 console.log(css)
+```
+
+### Output
+
+You can get a pretty good idea of what the generated CSS looks like by looking at [the tests](json-to-css/src/css.spec.js), but in a pinch it produces a somewhat minified css output. Something like:
+
+```javascript
+const json = require('my-css.json')
+// {
+//  "h1": {
+//    "font-size": "18vw",
+//    "color": "#f00"
+//  }
+// }
+
+const css = Css.of(json)
+// h1{font-size:18vw;color:#f00;}
 ```
